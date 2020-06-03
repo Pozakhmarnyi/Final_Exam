@@ -350,7 +350,7 @@
   margin: 133px auto 80px auto;
   width: 1965px;
   height: 700px;
-  background-image: url(/img/Bg.png);
+  background-image: url(img/Bg.png);
 }
 
 .news__header {
@@ -716,21 +716,33 @@
   color: red;
 }
 
+#prev2 img:hover {
+  background: rgba(188, 255, 32, 0.308);
+}
+
+#next2 img:hover {
+  background: rgba(188, 255, 32, 0.308);
+}
+
 #prev2 {
   background: none;
-  border: solid 1px rgba(206, 240, 154, 0.342);
+  border: none;
   position: absolute;
   bottom: 20px;
-  left: 850px;
+  left: 840px;
   z-index: 500;
+  padding: 5px;
+  outline: none;
 }
 
 #next2 {
   background: none;
-  border: solid 1px rgba(206, 240, 154, 0.342);
+  border: none;
   position: absolute;
   bottom: 20px;
-  left: 1000px;
+  left: 970px;
   z-index: 500;
+  padding: 5px;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
