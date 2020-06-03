@@ -79,17 +79,13 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    dots: true,
-    arrows: false,
+
+    // таким нехитрим чином, зробив стрілки, такими, як треба... прикрутив їх...
+
+    arrows: true,
+    prevArrow: $("#prev2"),
+    nextArrow: $("#next2"),
   });
-  // $("#prev2").click(function (e) {
-  //   e.preventDefault();
-  //   $slider.slick("slickPrev");
-  // });
-  // $("#next2").click(function (e) {
-  //   e.preventDefault();
-  //   $slider.slick("slickNext");
-  // });
 });
 
 // ПЛАВНИЙ СКРОЛ ПО СТОРІНЦІ - при натискання на меню

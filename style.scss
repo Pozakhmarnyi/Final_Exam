@@ -7,7 +7,7 @@
 }
 
 .header {
-  background-image: url(/img/header_Bg.png);
+  background-image: url(img/header_Bg.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 1080px;
@@ -608,4 +608,23 @@
 }
 .red {
   color: red;
+}
+
+//стилі стрілок
+
+#prev2 {
+  background: none;
+  border: solid 1px rgba(206, 240, 154, 0.342);
+  position: absolute;
+  bottom: 20px;
+  left: 850px;
+  z-index: 500;
+}
+#next2 {
+  background: none;
+  border: solid 1px rgba(206, 240, 154, 0.342);
+  position: absolute;
+  bottom: 20px;
+  left: 1000px;
+  z-index: 500;
 }
