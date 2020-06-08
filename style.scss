@@ -311,6 +311,9 @@
 
 .news {
   margin: 133px auto 80px auto;
+  @media screen and (max-width: 800px) {
+    margin: 30px auto 0 auto;
+  }
   width: 90vw;
   height: 60vh;
 
@@ -340,6 +343,8 @@
   }
   position: relative;
 }
+
+//  Дуже дієва схема центрувати в СТРІЛКИ
 
 #prev {
   z-index: 1;
@@ -416,7 +421,10 @@
 
 .question {
   width: 100vh;
-  margin: 20vh auto 5vh auto;
+  margin: 100px auto 5vh auto;
+  @media screen and (max-width: 800px) {
+    margin: 0px auto 5vh auto;
+  }
   align-items: center;
 
   &__title {
@@ -425,6 +433,7 @@
     color: rgb(28, 28, 27);
     text-transform: uppercase;
     line-height: 5.5;
+
     text-align: center;
   }
   &__box {

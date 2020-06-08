@@ -30,6 +30,7 @@ $(document).ready(function () {
     dots: false,
     arrows: true,
   });
+
   $("#prev").click(function (e) {
     e.preventDefault();
     $slider.slick("slickPrev");

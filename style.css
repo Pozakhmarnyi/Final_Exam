@@ -352,6 +352,12 @@
   height: 60vh;
 }
 
+@media screen and (max-width: 800px) {
+  .news {
+    margin: 30px auto 0 auto;
+  }
+}
+
 .news__header {
   text-align: center;
 }
@@ -468,10 +474,16 @@
 
 .question {
   width: 100vh;
-  margin: 20vh auto 5vh auto;
+  margin: 100px auto 5vh auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .question {
+    margin: 0px auto 5vh auto;
+  }
 }
 
 .question__title {
