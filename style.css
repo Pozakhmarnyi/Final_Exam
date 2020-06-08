@@ -217,7 +217,7 @@
 
 .We_are__holder {
   margin: 100px auto 100px auto;
-  background-image: url("/img/holder.png");
+  background-image: url("img/holder.png");
   color: black;
   width: 690px;
   height: 200px;
@@ -267,7 +267,7 @@
 
 .what_is_CBD__content__navButton button:hover {
   border-bottom: solid 2px #000000;
-  background: rgba(228, 228, 228, 0.219);
+  background: rgba(144, 250, 74, 0.123);
 }
 
 .disappear {
@@ -369,20 +369,48 @@
 .SliderBox {
   margin: auto;
   width: 90vw;
-  height: 430px;
+  height: 40vh;
   position: relative;
 }
 
+@media screen and (max-width: 1200px) {
+  .SliderBox {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .SliderBox {
+    height: 10vh;
+  }
+}
+
 #prev {
+  z-index: 1;
   position: absolute;
-  left: 750px;
-  bottom: -100px;
+  bottom: -5rem;
+  left: 50%;
+  margin-left: -130px;
+}
+
+@media screen and (max-width: 800px) {
+  #prev {
+    bottom: -15rem;
+  }
 }
 
 #next {
+  z-index: 1;
   position: absolute;
-  right: 850px;
-  bottom: -100px;
+  bottom: -5rem;
+  right: 50%;
+  margin-right: -130px;
+}
+
+@media screen and (max-width: 800px) {
+  #next {
+    bottom: -15rem;
+  }
 }
 
 .boxForSlide {
@@ -493,7 +521,7 @@
 }
 
 .box img {
-  width: 1920px;
+  width: 100%;
   height: 800px;
   -o-object-fit: cover;
      object-fit: cover;

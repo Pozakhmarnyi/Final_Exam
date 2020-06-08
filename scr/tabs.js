@@ -4,20 +4,20 @@ $(".content_in_2but").hide();
 $(".content_in_3but").hide();
 
 $(".but1").click(function () {
-  $(".content_in_1but").slideToggle("slow", function () {});
+  $(".content_in_1but").show("slow", function () {});
   $(".content_in_2but").hide();
   $(".content_in_3but").hide();
 });
 $(".but2").click(function () {
   $(".content_in_1but").hide();
-  $(".content_in_2but").slideToggle("slow", function () {});
+  $(".content_in_2but").show("slow", function () {});
   $(".content_in_3but").hide();
 });
 
 $(".but3").click(function () {
   $(".content_in_1but").hide();
   $(".content_in_2but").hide();
-  $(".content_in_3but").slideToggle("slow", function () {});
+  $(".content_in_3but").show("slow", function () {});
 });
 
 // СЛАйдер
