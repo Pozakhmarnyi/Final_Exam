@@ -765,22 +765,20 @@
 #prev2 {
   background: none;
   border: none;
+  z-index: 1;
   position: absolute;
-  bottom: 20px;
-  left: 820px;
-  z-index: 500;
-  padding: 5px;
-  outline: none;
+  bottom: 0;
+  left: 50%;
+  margin-left: -135px;
 }
 
 #next2 {
   background: none;
   border: none;
+  z-index: 1;
   position: absolute;
-  bottom: 20px;
-  left: 950px;
-  z-index: 500;
-  padding: 5px;
-  outline: none;
+  bottom: 0;
+  right: 50%;
+  margin-right: -135px;
 }
 /*# sourceMappingURL=style.css.map */
