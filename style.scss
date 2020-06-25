@@ -479,16 +479,6 @@
   object-fit: cover;
 }
 
-// #prev2 {
-//   position: absolute;
-//   left: 900px;
-//   bottom: -100px;
-// }
-// #next2 {
-//   position: absolute;
-//   right: 900px;
-//   bottom: -100px;
-// }
 // slider BIG ====
 
 // <!--     contact us -->
@@ -644,6 +634,13 @@
 }
 #next2 img:hover {
   background: rgba(188, 255, 32, 0.308);
+}
+
+#prev2:focus {
+  outline: none;
+}
+#next2:focus {
+  outline: none;
 }
 
 #prev2 {

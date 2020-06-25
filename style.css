@@ -762,6 +762,14 @@
   background: rgba(188, 255, 32, 0.308);
 }
 
+#prev2:focus {
+  outline: none;
+}
+
+#next2:focus {
+  outline: none;
+}
+
 #prev2 {
   background: none;
   border: none;
